@@ -1,0 +1,51 @@
+.App {
+	text-align: center;
+}
+
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+h1 {
+color:rgb(175, 33, 197)
+}
+
+.App-header {
+  font-family: 'Spline Sans Mono', monospace;
+  background-image: url("../images/notepad.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-height: 100vh;
+	background-color: #f1e9f1;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(7px + 2vmin);
+	color: rgb(51, 111, 167);
+}
+
+.delete-button,
+.add-to-list-button{
+  background-color:rgb(226, 72, 190);
+  color: white;
+}
+
+.input-field {
+  background-color:rgb(252, 225, 245)
+}
+
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
