@@ -3,23 +3,17 @@
     <img alt="School of Code" src="./images/soc-logo.png" width="60" />
 </div>
 <h1 align="center">
-  ⚛️ Hackathon: React-athon! ⚛️
+  To do list - made with react
 </h1>
 
-## Task
+<h2> The Task </h2>
 
-Use the skills in React we've been learning all week to create a to do list app.
+<li>This week we have had an introduction to react. We have learnt about creating reusable components and storing them in seperate files, we have used hooks and states, the spread operator, .map() and .filter().
+<li> Our task was to use what we have learnt this week to create a to do list using react.
+   <li> We were provided the component tree and requirements below.
+       <li>Scroll to the bottom to find out what I learnt.
 
-Use the requirements here to plan out your MVP of your app - users should be able to add a todo to the list and delete items off of the list displayed on the view. Architect your components according to the component tree below. Each of your components should have the state and behavior listed below.
-
-You'll need to initialize your app with [create-react-app](https://create-react-app.dev/docs/getting-started/) in this repository. Remember to organize your folder structure so you have a components folder within your `src` with a subfolder for every component.
-
-Once you finish your MVP and have met all the requirements in state and behavior, plan out and develop additional features. Be creative! Some ideas:
-
-- Style it up with CSS so your UI looks polished and is easy to use.
-- Add additional functionality to your todos. This could include the ability to cross off as well as delete, the ability to rank todos by date and/or priority, the ability to categorize todos, etc.
-- Are there any libraries or APIs you could use to add features to your todo list?
-
+         
 ## Requirements
 
 ### Component Tree
@@ -93,3 +87,8 @@ _behaviour_
 
 - render the text and a button
 - when the button is clicked call the delete function to delete item at this index
+           </div>
+           
+<h2>What I learnt:</h2>
+           <li>We got off to a flying start, we used Create React App to initialise our project and quickly sorted our files out so that they were organised and easy to navigate, something that I have realised is very important, especially if somebody else might want to look at your code later on. We organised our app into an App folder with a Components folder inside which contained seperate files for each component created.
+    
